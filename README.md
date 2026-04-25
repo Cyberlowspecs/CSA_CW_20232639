@@ -10,7 +10,7 @@ This is the Smart Campus API built using JAX-RS (Jersey). It manages Rooms, Sens
 4. Right-click the project and select **Run**.
 5. NetBeans will automatically deploy the `.war` to your configured Apache Tomcat 9 server.
 6. The Output pane should open showing the Tomcat deployment logs and the application startup.
-7. The base API URL will typically be `http://localhost:8080/smartcampus-api-1.0-SNAPSHOT/api/v1` (Note: The exact context path depends on your NetBeans Tomcat configuration; you may want to change the context path in project properties to `/`).
+7. The base API URL is now correctly configured to match your exact test requirements: `http://localhost:8080/smart-campus-api/api/v1`
 
 ---
 

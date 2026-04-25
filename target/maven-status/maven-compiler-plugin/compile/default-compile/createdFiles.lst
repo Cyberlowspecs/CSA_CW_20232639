@@ -9,7 +9,6 @@ com/smartcampus/store/DataStore.class
 com/smartcampus/resource/RoomResource.class
 com/smartcampus/exception/RoomNotEmptyExceptionMapper.class
 com/smartcampus/exception/LinkedResourceNotFoundException.class
-com/smartcampus/Main.class
 com/smartcampus/exception/LinkedResourceNotFoundExceptionMapper.class
 com/smartcampus/model/SensorReading.class
 com/smartcampus/resource/SensorReadingResource.class

@@ -13,6 +13,5 @@
 /home/cyberlowspecs/Documents/Coding/Client Server Architecture - CW/src/main/java/com/smartcampus/model/SensorReading.java
 /home/cyberlowspecs/Documents/Coding/Client Server Architecture - CW/src/main/java/com/smartcampus/store/DataStore.java
 /home/cyberlowspecs/Documents/Coding/Client Server Architecture - CW/src/main/java/com/smartcampus/exception/GlobalExceptionMapper.java
-/home/cyberlowspecs/Documents/Coding/Client Server Architecture - CW/src/main/java/com/smartcampus/Main.java
 /home/cyberlowspecs/Documents/Coding/Client Server Architecture - CW/src/main/java/com/smartcampus/resource/DiscoveryResource.java
 /home/cyberlowspecs/Documents/Coding/Client Server Architecture - CW/src/main/java/com/smartcampus/exception/LinkedResourceNotFoundExceptionMapper.java
