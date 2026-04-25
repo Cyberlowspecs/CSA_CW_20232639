@@ -1,5 +1,19 @@
 # Smart Campus RESTful API Coursework Report
 
+## Overview
+This is the Smart Campus API built using JAX-RS (Jersey). It manages Rooms, Sensors, and historical Sensor Readings. The application runs entirely in memory and prevents data orphans, utilizing semantic HTTP error codes and global logging filters.
+
+## How to Run in NetBeans & Tomcat 9
+1. Open Apache NetBeans.
+2. Go to **File > Open Project** and select the root directory containing `pom.xml`.
+3. Right-click the project in the Projects pane and select **Clean and Build**.
+4. Right-click the project and select **Run**.
+5. NetBeans will automatically deploy the `.war` to your configured Apache Tomcat 9 server.
+6. The Output pane should open showing the Tomcat deployment logs and the application startup.
+7. The base API URL will typically be `http://localhost:8080/smartcampus-api-1.0-SNAPSHOT/api/v1` (Note: The exact context path depends on your NetBeans Tomcat configuration; you may want to change the context path in project properties to `/`).
+
+---
+
 ## Part 1: Service Architecture & Setup
 
 **Question 1: Explain the default lifecycle of a JAX-RS Resource class. Is a new instance instantiated for every incoming request, or does the runtime treat it as a singleton? Elaborate on how this architectural decision impacts the way you manage and synchronize your in-memory data structures (maps/lists) to prevent data loss or race conditions.**
