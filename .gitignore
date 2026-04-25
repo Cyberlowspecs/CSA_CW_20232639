@@ -1,0 +1,8 @@
+target/
+.nb-gradle/
+.settings/
+.classpath
+.project
+*.class
+
+api_test_documentation.txt
